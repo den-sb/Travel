@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #E5E5E5;
 }
 
 *,
@@ -13,6 +14,8 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+
+  background: #ffffff;
 }
 
 /* Header */
@@ -203,3 +206,162 @@ body {
   text-transform: capitalize;
   cursor: pointer;
 }
+
+/* Steps */
+
+.steps {
+  width: 1177px;
+  height: 247px;
+  margin: 0 auto;
+}
+
+.steps__text {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 53px;
+
+  color: #f2785c;
+  text-align: center;
+}
+
+.steps__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steps__img {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.icon__text {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #0d606f;
+  text-align: center;
+}
+
+/* Destinations */
+
+.destinations {
+  position: relative;
+  width: 1440px;
+  height: 1042px;
+
+  overflow: hidden;
+}
+
+.dest__text {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 53px;
+
+  color: #f2785c;
+  text-align: center;
+}
+
+.dest__inner {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+
+
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+
+}
+
+.position {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+/* ----------------------------- */
+.dest__img-1 {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 16px;
+
+  background: url("../images/Rectangle_23.png") center no-repeat;
+  background-size: cover;
+}
+
+.img__text-1 {
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+/* ----------------------------- */
+
+.dest__img-2 {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 16px;
+
+  background: url("../images/Rectangle_24.png") center no-repeat;
+  background-size: cover;
+}
+
+.img__text-2 {
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+/* ----------------------------- */
+
+.dest__img-3 {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 16px;
+
+  background: url("../images/Rectangle_25.png") center no-repeat;
+  background-size: cover;
+}
+
+.img__text-3 {
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #FFFFFF;
